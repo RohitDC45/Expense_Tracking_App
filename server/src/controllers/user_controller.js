@@ -113,7 +113,7 @@ const userLogin = async (req, res) => {
     if (!user) {
       return res.status(404).send({
         status: false,
-        message: "Username or password is incorrect for deliveryboy",
+        message: "Username or password is incorrect for user",
       });
     }
 
